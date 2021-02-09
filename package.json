@@ -1,0 +1,21 @@
+{
+  "name": "Workout-Tracker_HS",
+  "version": "1.0.0",
+  "description": "This application is a workout tracker with a Mongo database / schema and routes with Express.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HannahStarcevich/Workout-Tracker_HS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HannahStarcevich/Workout-Tracker_HS/issues"
+  },
+  "homepage": "https://github.com/HannahStarcevich/Workout-Tracker_HS#readme"
+}
