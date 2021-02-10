@@ -1,11 +1,12 @@
+const {
+    kStringMaxLength
+} = require("buffer");
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const DaySchema = new Schema({
-    date: {
-        type: Date,
-        default: Date.now
-    },
+    name: String,
+
     workouts: [{
         type: Schema.Types.ObjectId,
         ref: "workouts"
