@@ -141,7 +141,7 @@ app.get('/seedWorkouts', (req, res) => {
 
 app.get('/populatedworkouts', (req, res) => {
     db.Day.find({})
-        .populate('workouts')
+        .populate('workout')
         .then(dbDay => {
             res.json(dbDay)
         })

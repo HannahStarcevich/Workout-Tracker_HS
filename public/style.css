@@ -1,3 +1,12 @@
 body {
-    background: salmon
+    background: #cccbcbc2
+}
+
+h1 {
+    margin: 2%;
+    text-align: center;
+}
+
+h3 {
+    margin: 2%;
 }
